@@ -17,3 +17,14 @@ describe('Calculator Calculation Functions', function() {
 
 
 // Add your tests here
+
+describe('Calculator Square Root', function() {
+    const res = calculator.calculateSquareRoot(121);
+    it('should return 2', function() {
+        assert.strictEqual(res, 11);
+    });
+    const res2 = calculator.calculateSquareRoot(225);
+    it('should return 2', function() {
+        assert.strictEqual(res2, 15);
+    });
+});
