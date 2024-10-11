@@ -78,3 +78,10 @@ describe('Testing tan(0) == 0', function() {
         assert(Math.abs(res) < 1e-6);
     });
 });
+
+describe('Calculator Square Function', function () {
+    const res = calculator.calculateSquare(4);
+    it('should return 16', function() {
+        assert.strictEqual(res, 16);
+    });
+});
